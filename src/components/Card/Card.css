@@ -1,0 +1,25 @@
+.card_item {
+    border-radius: 1.7rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.card_item:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(.97);
+}
+
+.card_item:not(:hover) {
+    transition: all .2s ease-in-out;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: .9;
+    gap: .3rem;
+}
