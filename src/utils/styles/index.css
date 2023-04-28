@@ -1,0 +1,155 @@
+:root {
+    --bg-color: #1B1B1F;
+    --white: #FFFFFF;
+    --yellow: #ffc862;
+    --grey: #38383c;
+    --blue: #4F5AE0;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    color: #000000;
+    background-color: var(--bg-color);
+}
+
+header, main {
+    margin: 0 2rem;
+}
+
+.-bg-white {
+    background-color: var(--white);
+}
+
+.-bg-yellow {
+    background-color: var(--yellow);
+}
+
+.-bg-light_grey {
+    background-color: #525257;
+}
+
+.-bg-blue {
+    background-color: var(--blue);
+}
+
+.-page_container {
+    min-height: 100vh;
+}
+
+.card_container_flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.08), 0 4px 6px -2px rgba(255, 255, 255, 0.05);
+    border-radius: 2.7rem;
+    border: 1.5px solid var(--grey);
+    height: 30vh;
+    gap: .5rem;
+}
+
+.card_container_flex .card_item {
+    flex: 1;
+}
+
+.card_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.work_container_title {
+    color: var(--white);
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    margin: 2rem 0 1rem 0;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: var(--white);
+    font-size: initial;
+}
+
+@media only screen and (max-width:1169px) {
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        color: #000000;
+    }
+}
+
+.vertical-timeline-element-content-tags {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 22px;
+    }
+
+    header, main {
+        margin: 0 1.625rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        font-size: 20px;
+    }
+
+    header, main {
+        margin: 0 1.25rem;
+    }
+
+    .about_container {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    header, main {
+        margin: 0 .875rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+
+    header, main {
+        margin: 0 .5rem;
+    }
+
+    .card_container_flex {
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .card_content {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        flex: .6;
+    }
+}
