@@ -57,6 +57,7 @@ header, main {
     border: 1.5px solid var(--grey);
     height: 30vh;
     gap: .5rem;
+    min-height: 260px;
 }
 
 .card_container_flex .card_item {
