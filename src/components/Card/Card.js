@@ -14,7 +14,7 @@ export const Card = (props) => {
 
     return (
         <>
-            <Link to={props.mailto ? `mailto:Quentin.Susseto@outlook.fr` : ''} className={`card_item ${props.class}`} onClick={() => handleScroll(props.htmlId)}>
+            <Link to={props.mailto ? `mailto:Quentin.Sussetto@outlook.fr` : ''} className={`card_item ${props.class}`} onClick={() => handleScroll(props.htmlId)}>
                 <div className='card_content'>
                     <div className='card_icon'>
                         <span className='material-icons'>{props.icon}</span>
