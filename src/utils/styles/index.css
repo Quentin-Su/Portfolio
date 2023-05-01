@@ -17,11 +17,13 @@
 html {
     font-size: 24px;
     font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
 }
 
 body {
     color: #000000;
     background-color: var(--bg-color);
+    overflow: hidden;
 }
 
 header, main {
