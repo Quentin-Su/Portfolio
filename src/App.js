@@ -1,24 +1,22 @@
+import React, { useEffect } from 'react';
 import { Header } from './components/Header/Header';
-import { Card } from './components/Card/Card';
 import { About } from './sections/About/About';
 import { Projects } from './sections/Projects/Projects';
 import { Works } from './sections/Works/Works';
 import { Footer } from './components/Footer/Footer';
-import { cards } from './utils/context/constants';
+import { Cards } from './sections/Cards/Cards';
 
-export default function app() {
+export default function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header />
 
       <main>
-        <section className='card_container_flex'>
-          {
-            cards.map((value, index) => (
-              <Card key={index} content={value.content} icon={value.icon} class={`${value.color}`} htmlId={value.hrefId} mailto={value.mailto} />
-            ))
-          }
-        </section>
+        <Cards />
 
         <section className='about_container -page_container' id='about_section'>
           <About />

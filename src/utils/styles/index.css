@@ -99,8 +99,21 @@ header, main {
 .vertical-timeline-element-content-tags {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: .5rem;
 }
+
+.link_hover_animation:hover {
+    transition: all .2s ease-in-out;
+    opacity: .9;
+    transform: scale(1.1);
+}
+
+.link_hover_animation:not(:hover) {
+    transition: all .2s ease-in-out;
+    opacity: 1;
+}
+
 
 @media only screen and (max-width: 1200px) {
     body {
