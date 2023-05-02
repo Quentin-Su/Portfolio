@@ -1,5 +1,6 @@
 import { BounceLetters } from '../Animations/BounceLetters';
 import { ScaleLetters } from '../Animations/ScaleLetters';
+import { motion } from 'framer-motion';
 import './Header.css';
 
 export const Header = () => {
@@ -14,7 +15,7 @@ export const Header = () => {
                         <ScaleLetters lettersAppearanceDelay={180} interval={150} delay={630} group={false}>I'm Quentin</ScaleLetters>
                     </div>
                 </h1>
-                <span className='header_content_subtitle'>&lt;Web Developer /&gt;</span>
+                <motion.span className='header_content_subtitle' initial={{ x: '-100vw' }} animate={{ x: 0 }} transition={{ delay: 1.3, duration: .4, ease: 'easeOut' }}>&lt;Web Developer /&gt;</motion.span>
             </div>
         </header>
     );

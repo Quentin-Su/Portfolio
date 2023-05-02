@@ -7,7 +7,8 @@
 }
 
 .about_person_container img {
-    width: 90%;
+    user-select: none;
+    width: 70%;
     border-radius: 50%;
     height: auto;
     position: relative;
@@ -171,6 +172,11 @@
     font-size: .8rem;
 }
 
+.service_description span {
+    color: var(--yellow);
+    font-weight: 600;
+}
+
 .service_contact {
     background-color: var(--grey);
     color: var(--white);
@@ -186,7 +192,7 @@
         margin: 4rem 0;
     }
     .about_person_container img {
-        width: 45%;
+        width: 40%;
         height: auto;
     }
 

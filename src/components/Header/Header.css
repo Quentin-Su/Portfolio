@@ -1,5 +1,6 @@
 .header {
     height: 70vh;
+    min-height: 320px;
 }
 
 .header_container {
@@ -7,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: inherit;
+    height: 100%;
 }
 
 .header_content {

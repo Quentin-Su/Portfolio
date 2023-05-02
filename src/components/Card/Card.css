@@ -6,15 +6,6 @@
     color: #000000;
 }
 
-.card_item:hover {
-    transition: all .2s ease-in-out;
-    transform: scale(.97);
-}
-
-.card_item:not(:hover) {
-    transition: all .2s ease-in-out;
-}
-
 .card_content {
     display: flex;
     flex-direction: column;
