@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5888e6bd.css",
+    "main.js": "/Portfolio/static/js/main.4f494654.js",
+    "static/media/Quentin_Person.png": "/Portfolio/static/media/Quentin_Person.81cae730c2b499021a34.png",
+    "static/media/RemoteDesktop_Web_ui.png": "/Portfolio/static/media/RemoteDesktop_Web_ui.b06ea410512b66216864.png",
+    "static/media/GTSpirit_contracts_ui.png": "/Portfolio/static/media/GTSpirit_contracts_ui.98a6ce065889fe737fce.png",
+    "index.html": "/Portfolio/index.html",
+    "main.5888e6bd.css.map": "/Portfolio/static/css/main.5888e6bd.css.map",
+    "main.4f494654.js.map": "/Portfolio/static/js/main.4f494654.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5888e6bd.css",
+    "static/js/main.4f494654.js"
+  ]
+}
