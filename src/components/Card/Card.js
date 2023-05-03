@@ -28,7 +28,7 @@ export const Card = (props) => {
 
     return (
         <>
-            <MotionLink to={props.mailto ? `mailto:Quentin.Sussetto@outlook.fr` : ''} className={`card_item ${props.class}`} onClick={() => handleScroll(props.htmlId)} variants={item} whileHover={{ scale: .97 }}>
+            <MotionLink to={props.mailto ? `mailto:Sussetto.Quentin@outlook.fr` : ''} className={`card_item ${props.class}`} onClick={() => handleScroll(props.htmlId)} variants={item} whileHover={{ scale: .97 }}>
                 <div className='card_content'>
                     <div className='card_icon'>
                         <span className='material-icons'>{props.icon}</span>

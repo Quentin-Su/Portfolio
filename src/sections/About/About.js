@@ -123,7 +123,7 @@ export const About = () => {
                         <div className='service_content'>
                             <h3>Developer</h3>
                             <p className='service_description'>I am a web developer specializing in <span>creating websites</span>, <span>web applications</span> and <span>console applications</span> too. I create innovative, elegant, and efficient digital solutions to meet the unique needs of my clients. Please contact me to discuss your online project.</p>
-                            <Link to={`mailto:Quentin.Sussetto@outlook.fr`} className='service_contact link_hover_animation'>Contact me</Link>
+                            <Link to={`mailto:Sussetto.Quentin@outlook.fr`} className='service_contact link_hover_animation'>Contact me</Link>
                         </div>
                     </div>
                 </div>

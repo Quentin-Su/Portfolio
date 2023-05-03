@@ -108,15 +108,15 @@ export const projects = [
             tags: [
                 {
                     name: 'ASP.net',
-                    color: 'dark_blue'
+                    color: 'skill_item skill_item_dark_blue'
                 },
                 {
                     name: 'C#',
-                    color: 'purple'
+                    color: 'skill_item skill_item_purple'
                 },
                 {
                     name: 'SQL Server',
-                    color: 'grey'
+                    color: 'skill_item skill_item_grey'
                 }
             ],
             projectUrl: 'https://github.com/Quentin-Su/'
@@ -142,15 +142,15 @@ export const projects = [
             tags: [
                 {
                     name: 'ASP.net',
-                    color: 'dark_blue'
+                    color: 'skill_item skill_item_dark_blue'
                 },
                 {
                     name: 'C#',
-                    color: 'purple'
+                    color: 'skill_item skill_item_purple'
                 },
                 {
                     name: 'SQL Server',
-                    color: 'grey'
+                    color: 'skill_item skill_item_grey'
                 }
             ],
             projectUrl: 'https://github.com/Quentin-Su/'
